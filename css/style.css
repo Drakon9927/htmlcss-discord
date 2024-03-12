@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logobox>img{
+    height: 50px;   
+}
+
+.logobox2>p{
+    border-radius: 108px 108px 108px 108px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+#accedifontsize{
+    font-size: 15px;
+}
+
+
+
+.containerazzurro{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 78vh;
+}
+/* Header */
+header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.logobox{
+    width: 1300px ;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logobox2{
+    display: flex;
+    width: 1184px;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.linkbox{
+    text-align: center;
+    width: 1952px;   
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+/* Container blue */
+
+.containerblue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+/* Container rosa */
+.pinkcontainer{
+    height: 70%;
+    width: 1184px;
+    background-color: #EE82EE;
+    border: 2px dashed black;
+}
+
+/* Container2 (3 blocchi) */
+
+.container2{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2box{
+    height: 80%;
+    min-width: 40%;
+    background-color: #1E90FF;
+    border: 3px dashed black;
+}
+
+.c2box2{
+    height: 80%;
+    min-width: 30%;
+    background-color: #FFC0CB;
+    border: 3px dashed black;
+}
+
+.cgrigio{
+    background-color: #D3D3D3;
+}
+
+/* Container 3 verde */
+
+.container3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3box{
+    height: 90%;
+    min-width: 70%;
+    background-color: #228B22;
+    border: 2px dashed black;
+}
+
+/* Container ossidiana */
+.container-obsidian{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    background-color: #23272A;
+}
+
+.c4box{
+    height: 90%;
+    min-width: 23.33%;
+    background-color: #F08080;
+    border: 4px dashed black;
+    margin-top: 10px;
+}
+
+.c4box2{
+    height: 90%;
+    min-width: 11.67%;
+    background-color: #20B2AA;
+    border: 2px dashed white;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    margin-top: 2px;
+    height: 10vh;
+    background-color: #23272A;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+.minibox{
+    display: flex;
+    background-color: #7FFFD4;
+    height: 3rem;
+    min-width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo2, .bottonetext{
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    padding: 5px;
+}
