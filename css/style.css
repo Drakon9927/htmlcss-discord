@@ -78,12 +78,14 @@ header{
     color: white;
 }
 
-.pinkcontainer>h1{
-    font-size: 50px;
+.pinkcontainer>h1, .c2box2>h1{
+    font-size: 40px;
     margin-bottom: 20px;
+    margin-block-start: 0.20em;
+    margin-block-end: 0.20em;
 }
 
-.pinkcontainer>p{
+p{
     font-size: 20px;
 }
 
@@ -96,7 +98,7 @@ header{
     margin-top: 30px;
 }
 
-/* Container2 (3 blocchi) */
+/* 2° blocco */
 
 .container2{
     display: flex;
@@ -107,29 +109,35 @@ header{
 
 .c2box{
     height: 80%;
-    min-width: 40%;
-    background-color: #1E90FF;
-    border: 3px dashed black;
+    width: 800px;
+}
+
+.c2box.secondoblocco>img{
+    position:relative;
+    left: 100px;
 }
 
 .c2box2{
     height: 80%;
-    min-width: 30%;
-    background-color: #FFC0CB;
-    border: 3px dashed black;
+    min-width: 600px;
+    padding: 25px;
 }
 
 .cgrigio{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
-/* Container 3 verde */
+/* 3° blocco */
 
 .container3{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.blocco3{
+    margin-left: 200px;
 }
 
 .c3box{
