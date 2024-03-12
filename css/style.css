@@ -8,23 +8,23 @@
     height: 50px;   
 }
 
-.logobox2>p{
+.roundbuttonbox{
     border-radius: 108px 108px 108px 108px;
     background-color: white;
     color: black;
-    padding: 10px;
-}
-
-#accedifontsize{
+    padding: 15px;
     font-size: 15px;
+    margin: 10px 10px 10px 10px;
 }
 
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .containerazzurro{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 78vh;
+    height: 70vh;
 }
 /* Header */
 header{
@@ -61,6 +61,7 @@ header{
     justify-content: space-around;
 }
 
+
 /* Container blue */
 
 .containerblue{
@@ -71,10 +72,28 @@ header{
 }
 /* Container rosa */
 .pinkcontainer{
+    text-align: center;
     height: 70%;
     width: 1184px;
-    background-color: #EE82EE;
-    border: 2px dashed black;
+    color: white;
+}
+
+.pinkcontainer>h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.pinkcontainer>p{
+    font-size: 20px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.margindiv{
+    margin-top: 30px;
 }
 
 /* Container2 (3 blocchi) */
