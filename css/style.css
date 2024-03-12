@@ -13,10 +13,14 @@
     background-color: white;
     color: black;
     padding: 15px;
-    font-size: 15px;
+    font-size: 20px;
     margin: 10px 10px 10px 10px;
 }
 
+.arrowdown{
+    font-size: 30px;
+    margin-right: 10px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -119,7 +123,7 @@ p{
 
 .c2box2{
     height: 80%;
-    min-width: 600px;
+    width: 600px;
     padding: 25px;
 }
 
@@ -127,10 +131,10 @@ p{
     background-color: #F6F6F6;
 }
 
-/* 3° blocco */
+/* 3-5 blocco */
 
 .container3{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,9 +146,29 @@ p{
 
 .c3box{
     height: 90%;
-    min-width: 70%;
-    background-color: #228B22;
-    border: 2px dashed black;
+    width: 1400px;
+    text-align: center;
+    padding: 50px;
+}
+
+.starsbox{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    width: 700px;
+    margin-left: 300px;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+span.viola{
+    display: inline-block;
+    margin-top:50px ;
+    background-color: #7289DA;
+    font-size: 25px;
+    color: white;
 }
 
 /* Container ossidiana */
