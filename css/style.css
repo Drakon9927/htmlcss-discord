@@ -4,8 +4,9 @@
     margin: 0;
 }
 
-.logobox>img{
-    height: 50px;   
+.logobox>img, .logo2>img{
+    height: 60px;
+    width:130px;   
 }
 
 .roundbuttonbox{
@@ -225,24 +226,26 @@ div.c4box2>p{
 
 footer{
     display: flex;
-    height: 3vh;
+    height: 12vh;
     background-color: #23272A;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
 .minibox{
     display: flex;
-    background-color: #7FFFD4;
     height: 3rem;
     width: 1400px;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
+    border-top: 1px solid #7289DA;  
 }
 
-.logo2, .bottonetext{
-    background-color: #FFB6C1;
-    border: 2px dashed black;
-    padding: 5px;
+.logo2{
+    margin-top: 40px; 
+ 
+}   
+
+div.bottonetext>span.roundbuttonbox{
+    font-size: 15px;
 }
